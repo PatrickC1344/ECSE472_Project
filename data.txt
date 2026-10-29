@@ -1,6 +1,6 @@
-Floating resistor subcircuit
-V1 N1 0 DC 10
-R1 N1 N2 10000
-R2 N2 N3 10000
+diode circuit
+Vin n1 0 DC 1
+D1 n1 n2
+R n2 0 50
 .dc
 .end

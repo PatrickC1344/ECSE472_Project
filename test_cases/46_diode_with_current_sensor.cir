@@ -1,0 +1,12 @@
+Diode with ISC and current-controlled sources
+* Diode parameters: Is = 1e-15 A; Vt = 0.025 V (set in solver).
+VIN N1 0 DC 1
+R1 N1 N2 1000
+ISC1 N2 N3
+D1 N3 0
+CCCS1 N4 0 ISC1 2
+R2 N4 0 1000
+CCVS1 N5 0 ISC1 500
+R3 N5 0 1000
+.dc
+.end

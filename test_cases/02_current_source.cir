@@ -1,5 +1,5 @@
 Current source injection to grounded resistor
-Iin n1 0 0.002
+Iin n1 0 dc 0.002
 Rload n1 0 1000
 .dc
 .end

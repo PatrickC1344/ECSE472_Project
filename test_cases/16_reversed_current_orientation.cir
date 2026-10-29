@@ -1,7 +1,7 @@
 Reverse Source Orientation
 R1 n1 0 2000
-I1 0 n1 0.003
+I1 0 n1 dc 0.003
 R2 n2 0 1000
-I2 n2 0 -0.004
+I2 n2 0 dc -0.004
 .dc
 .end

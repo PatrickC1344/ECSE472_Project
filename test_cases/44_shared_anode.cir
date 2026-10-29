@@ -1,0 +1,10 @@
+Two diodes sharing an anode
+* Diode parameters: Is = 1e-15 A; Vt = 0.025 V (set in solver).
+VIN N1 0 DC 1.5
+R1 N1 N2 1000
+D1 N2 N3
+D2 N2 N4
+R2 N3 0 500
+R3 N4 0 2000
+.dc
+.end

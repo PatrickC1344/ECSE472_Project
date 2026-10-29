@@ -1,0 +1,7 @@
+Grounded anode with negative supply
+* Diode parameters: Is = 1e-15 A; Vt = 0.025 V (set in solver).
+VIN N1 0 DC -1
+R1 N1 N2 1000
+D1 0 N2
+.dc
+.end

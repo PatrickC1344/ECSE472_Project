@@ -1,7 +1,7 @@
 Parallel Current Sources Opposite Signs
 R1 n1 0 1000
-I1 n1 0 0.005
-I2 n1 0 -0.002
-I3 0 n1 0.001
+I1 n1 0 dc 0.005
+I2 n1 0 dc -0.002
+I3 0 n1 dc 0.001
 .dc
 .end
