@@ -1,0 +1,8 @@
+Inductor in Parallel with Resistor
+Vin n1 0 dc 10
+R1 n1 n2 1000
+L1 n2 n3 0.01
+R2 n2 n3 2000
+R3 n3 0 1000
+.dc
+.end

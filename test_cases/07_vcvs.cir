@@ -1,0 +1,8 @@
+VCVS non-inverting gain of three
+Vin n1 0 dc 2
+R1 n1 n2 1000
+R2 n2 0 1000
+VCVSamp n3 0 n1 n2 3
+Rload n3 0 1000
+.dc
+.end

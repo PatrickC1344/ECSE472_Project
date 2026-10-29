@@ -1,0 +1,9 @@
+CCVS Negative Transresistance
+Vin n1 0 dc 10
+R1 n1 n2 1000
+ISC1 n3 n2
+R2 n3 0 1000
+CCVS1 0 n4 ISC1 -500
+R4 n4 0 1000
+.dc
+.end

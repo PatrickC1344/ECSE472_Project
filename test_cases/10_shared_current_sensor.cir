@@ -1,0 +1,11 @@
+Two dependent sources share the same current sensor
+Vin n1 0 dc 8
+R1 n1 n2 1000
+ISC1 n2 n3 
+R2 n3 0 1000
+CCCSamp n4 0 ISC1 1.5
+Rload1 n4 0 1000
+CCVSamp n5 0 ISC1 500
+Rload2 n5 0 2000
+.dc
+.end

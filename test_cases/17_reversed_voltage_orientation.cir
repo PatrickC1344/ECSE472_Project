@@ -1,0 +1,6 @@
+Reverse Voltage Polarity
+Vin 0 n1 dc 9
+R1 n1 n2 1000
+R2 n2 0 2000
+.dc
+.end

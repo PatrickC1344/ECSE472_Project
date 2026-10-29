@@ -1,0 +1,7 @@
+Sparse Node Identifiers
+Vin n1 0 dc 11
+R1 n1 n20 1000
+R2 n20 n105 1000
+R3 n105 0 3000
+.dc
+.end

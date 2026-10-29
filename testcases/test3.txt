@@ -1,0 +1,5 @@
+Duplicate
+R1 0 n1 1000
+R1 n1 0 1000
+.dc
+.end

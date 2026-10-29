@@ -1,0 +1,6 @@
+Floating resistor subcircuit
+V1 N1 0 DC 10
+R1 N1 N2 10000
+R2 N2 N3 10000
+.dc
+.end

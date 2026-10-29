@@ -1,0 +1,7 @@
+Inductor short at DC
+Vin n1 0 dc 9
+R1 n1 n2 1000
+L1 n2 n3 0.01
+R2 n3 0 2000
+.dc
+.end

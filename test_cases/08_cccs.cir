@@ -1,0 +1,9 @@
+CCCS sensing current through a zero volt source
+Vin n1 0 dc 10
+R1 n1 n2 1000
+ISC1 n2 n3
+R2 n3 0 1000
+CCCSamp n4 0 ISC1 2
+Rload n4 0 1000
+.dc
+.end

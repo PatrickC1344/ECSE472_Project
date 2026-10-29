@@ -1,0 +1,9 @@
+Multiple Inductors with Shared Node
+Vin n1 0 dc 12
+R1 n1 n2 1000
+L1 n2 n3 0.001
+L2 n3 n4 0.01
+R2 n4 0 2000
+R3 n3 0 3000
+.dc
+.end

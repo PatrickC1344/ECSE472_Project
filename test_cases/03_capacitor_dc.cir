@@ -1,0 +1,7 @@
+Capacitor open at DC
+Vin n1 0 dc 12
+R1 n1 n2 1000
+R2 n2 0 2000
+C1 n2 0 0.000001
+.dc
+.end

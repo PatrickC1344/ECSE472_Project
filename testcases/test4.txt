@@ -1,0 +1,4 @@
+Resistor
+X1 0 n1 1000
+.dc
+.end

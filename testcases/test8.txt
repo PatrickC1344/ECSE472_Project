@@ -1,0 +1,6 @@
+Capacitor
+C1 0 n1 1
+C2 n2 0 1
+C3 n3 n4 1
+.dc
+.end

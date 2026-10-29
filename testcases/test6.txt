@@ -1,0 +1,7 @@
+Voltage
+V1 0 n1 DC 1
+V2 n2 0 DC 1
+V3 n3 n4 DC 1
+V4 n5 n6 dc 1
+.dc
+.end

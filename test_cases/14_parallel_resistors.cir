@@ -1,0 +1,8 @@
+Parallel Resistors
+Vin n1 0 dc 10
+R1 n1 n2 1000
+R2 n1 n2 2000
+R3 n2 0 1000
+R4 n2 0 3000
+.dc
+.end

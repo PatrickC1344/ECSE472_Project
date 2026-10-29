@@ -1,0 +1,7 @@
+VCCS Across Its Own Output
+Vin n1 0 dc 10
+R1 n1 n2 1000
+R2 n2 0 2000
+VCCS1 n2 0 n2 0 0.0005
+.dc
+.end

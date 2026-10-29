@@ -1,0 +1,11 @@
+Dependent Sources Before Sensing Element
+CCCS1 n4 0 ISC1 2
+CCVS1 n5 0 ISC1 250
+R3 n4 0 1000
+R4 n5 0 1000
+Vin n1 0 dc 10
+R1 n1 n2 1000
+R2 n3 0 1000
+ISC1 n2 n3
+.dc
+.end

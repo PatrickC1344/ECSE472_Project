@@ -1,0 +1,6 @@
+Current
+I1 n1 0 1
+I2 0 n2 1
+I3 n3 n4 1
+.dc
+.end

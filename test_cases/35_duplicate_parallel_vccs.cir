@@ -1,0 +1,9 @@
+Additive VCCS Shared Coefficient Cells
+Vin n1 0 dc 10
+R1 n1 n2 1000
+R2 n2 0 2000
+VCCS1 n2 0 n1 0 0.0001
+VCCS2 n2 0 n1 0 -0.0002
+VCCS3 n2 0 n1 0 0.0003
+.dc
+.end

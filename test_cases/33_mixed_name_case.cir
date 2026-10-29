@@ -1,0 +1,9 @@
+Mixed Case Source Names
+vInput n1 0 dc 10
+rLoad n1 n2 1000
+ISC1 n2 n3
+rReturn n3 0 1000
+cCcSamp n4 0 ISC1 2
+rOutput n4 0 1000
+.dc
+.end

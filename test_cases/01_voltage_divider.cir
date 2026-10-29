@@ -1,0 +1,6 @@
+Voltage divider 10V 1k 1k
+Vin n1 0 dc 10
+R1 n1 n2 1000
+R2 n2 0 1000
+.dc
+.end

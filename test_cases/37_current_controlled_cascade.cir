@@ -1,0 +1,12 @@
+Current Sensor Driven By CCVS Branch
+Vin n1 0 dc 9
+R1 n1 n2 1000
+ISC1 n2 n3
+R2 n3 0 2000
+CCVS1 n4 n5 ISC1 300
+ISC2 n5 n6
+R3 n6 0 1000
+CCCS1 n7 0 ISC2 2
+R4 n7 0 1000
+.dc
+.end

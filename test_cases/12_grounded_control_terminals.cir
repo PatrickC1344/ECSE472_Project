@@ -1,0 +1,8 @@
+VCCS and VCVS with controlling ground terminal
+Vin n1 0 dc 3
+VCCSamp n2 0 n1 0 0.002
+Rload1 n2 0 1000
+VCVSamp n3 0 0 n1 2
+Rload2 n3 0 1000
+.dc
+.end

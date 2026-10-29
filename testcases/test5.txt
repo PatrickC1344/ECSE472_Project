@@ -1,0 +1,6 @@
+Resistor
+R1 0 n1 1
+R2 n2 0 1
+R3 n3 n4 1
+.dc
+.end

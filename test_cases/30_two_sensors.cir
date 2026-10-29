@@ -1,0 +1,17 @@
+Independent Current Sensors
+Vin n1 0 dc 12
+R1 n1 n2 1000
+ISC1 n2 n3
+R2 n3 0 2000
+R3 n1 n4 2000
+ISC2 n4 n5
+R4 n5 0 1000
+CCCS1 n6 0 ISC1 1.5
+CCCS2 n6 0 ISC2 -0.5
+R5 n6 0 1000
+CCVS1 n7 0 ISC1 300
+CCVS2 n8 0 ISC2 -200
+R6 n7 0 1000
+R7 n8 0 1000
+.dc
+.end

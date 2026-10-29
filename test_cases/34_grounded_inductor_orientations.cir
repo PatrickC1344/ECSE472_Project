@@ -1,0 +1,8 @@
+Grounded Inductor Both Orientations
+Vin n1 0 dc 10
+R1 n1 n2 1000
+L1 n2 0 0.01
+R2 n1 n3 2000
+L2 0 n3 0.02
+.dc
+.end

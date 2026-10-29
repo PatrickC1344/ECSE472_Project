@@ -1,0 +1,8 @@
+VCCS Crossing Nodes and Ground
+Vin n1 0 dc 12
+R1 n1 n2 1000
+R2 n2 0 2000
+R3 n3 0 1000
+VCCS1 n3 n2 n2 n3 -0.0002
+.dc
+.end

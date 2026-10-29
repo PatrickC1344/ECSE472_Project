@@ -1,0 +1,8 @@
+VCCS current enters first output terminal
+Vin n1 0 dc 4
+Rcontrol n1 n2 1000
+R2 n2 0 1000
+VCCSamp n3 0 n1 n2 0.001
+Rload n3 0 1000
+.dc
+.end

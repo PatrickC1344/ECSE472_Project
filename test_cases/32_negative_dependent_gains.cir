@@ -1,0 +1,15 @@
+All Dependent Sources Negative Gain
+Vin n1 0 dc 10
+R1 n1 n2 1000
+ISC1 n2 n3
+R2 n3 0 1000
+VCCS1 n4 0 n1 n2 -0.0005
+R3 n4 0 1000
+VCVS1 n5 0 n1 n2 -2
+R4 n5 0 1000
+CCCS1 n6 0 ISC1 -3
+R5 n6 0 1000
+CCVS1 n7 0 ISC1 -150
+R6 n7 0 1000
+.dc
+.end

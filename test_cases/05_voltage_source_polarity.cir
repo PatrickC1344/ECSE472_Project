@@ -1,0 +1,6 @@
+Negative DC voltage and polarity
+Vin n1 0 dc -5
+R1 n1 n2 1000
+R2 n2 0 1000
+.dc
+.end

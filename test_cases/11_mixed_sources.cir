@@ -1,0 +1,18 @@
+Mixed R L C and all four dependent source types
+Vin n1 0 dc 6
+R1 n1 n2 1000
+ISC1 n2 n3
+R2 n3 0 2000
+C1 n3 0 0.000001
+L1 n3 n4 0.01
+R3 n4 0 3000
+VCCSamp n5 0 n1 n2 0.0005
+R4 n5 0 1000
+VCVSamp n6 0 n2 n3 2
+R5 n6 0 1000
+CCCSamp n7 0 ISC1 3
+R6 n7 0 1000
+CCVSamp n8 0 ISC1 250
+R7 n8 0 1000
+.dc
+.end
