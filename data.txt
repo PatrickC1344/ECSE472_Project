@@ -1,7 +1,6 @@
 diode circuit
-Vin n1 0 DC 10
+Iin 0 n1 DC 0.0001
 D1 n1 n2
-R n2 n3 50000
-D2 n3 0
+R n2 0 5000
 .dc
 .end
