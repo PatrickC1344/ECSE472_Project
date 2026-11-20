@@ -1,6 +1,9 @@
-diode circuit
-Iin 0 n1 DC 0.0001
+* a half-wave recitifier circuit
+Vin n1 0 COS 1 60
+* Vin is a cosine with a 1V amplitude and 60Hz frequency
 D1 n1 n2
-R n2 0 5000
-.dc
+R1 n2 0 50
+C1 n2 0 100e-6
+.tran 0.05s  0.1ms
+* run transient simulation for 0.05s with step size of 0.1ms 
 .end

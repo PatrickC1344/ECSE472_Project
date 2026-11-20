@@ -1,0 +1,13 @@
+High-frequency input and smaller capacitor
+* Is=1e-15 A; Vt=0.025 V, configured in fill_diodes.
+VIN N1 0 SIN 1 1000
+R1 N1 N2 1000
+ISC1 N2 N3
+D1 N3 0
+CCCS1 N4 0 ISC1 2
+R2 N4 0 1000
+CCVS1 N5 0 ISC1 500
+R3 N5 0 1000
+C1 N3 0 1e-7
+.TRAN 0.005S 0.005MS
+.END

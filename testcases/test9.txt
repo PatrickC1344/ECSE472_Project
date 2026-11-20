@@ -1,6 +1,0 @@
-Inductor
-L1 n1 0 1
-L2 0 n2 1
-L3 n3 n4 1
-.dc
-.end
